@@ -15,7 +15,7 @@ function randomBookmarkOpener(bookmarks) {
 	flattenBookmarks(root);
 	var num = flattenedBookmarks.length;
 	var index = Math.floor(Math.random() * num);
-	window.open(flattenedBookmarks[index].url, "_self");
+	window.location.replace(flattenedBookmarks[index]);
 }
 
 chrome.bookmarks.getTree(randomBookmarkOpener);
