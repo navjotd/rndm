@@ -7,7 +7,8 @@
     "newtab": "index.html"
   },
    "permissions": [
-          "bookmarks"
+          "bookmarks",
+          "storage"
           ],
   "manifest_version": 2
 }
